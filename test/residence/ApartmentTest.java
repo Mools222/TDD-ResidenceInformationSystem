@@ -23,7 +23,7 @@ class ApartmentTest {
     public void testApartmentRent() {
         Apartment apartment = new Apartment(new Room(12, Type.KITCHEN), new Room(7, Type.BATHROOM), new Room(15, Type.ROOM), new Room(25, Type.ROOM), new Room(11, Type.ROOM));
         assertEquals(70, apartment.getSize());
-        
+        assertEquals(4200, apartment.getMonthlyRent());
     }
 
 }
