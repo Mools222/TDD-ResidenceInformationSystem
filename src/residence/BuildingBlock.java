@@ -17,7 +17,11 @@ public class BuildingBlock {
     }
 
     public int getSize() {
-        return 0;
+        int size = 0;
+        for (Apartment apartment : apartmentList) {
+            size += apartment.getSize();
+        }
+        return size;
     }
 
     public String getAddress() {
