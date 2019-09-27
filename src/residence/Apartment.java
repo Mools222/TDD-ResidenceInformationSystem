@@ -21,4 +21,8 @@ public class Apartment {
     public int getRoomCount() {
         return roomList.size();
     }
+
+    public int getMonthlyRent() {
+        return getSize() * 60;
+    }
 }
