@@ -18,4 +18,11 @@ class RoomTest {
         assertEquals(9, room.getSize());
         assertEquals(Type.BATHROOM, room.getType());
     }
+
+    @Test
+    public void testRoomRoom() {
+        Room room = new Room(20, Type.ROOM);
+        assertEquals(20, room.getSize());
+        assertEquals(Type.ROOM, room.getType());
+    }
 }
