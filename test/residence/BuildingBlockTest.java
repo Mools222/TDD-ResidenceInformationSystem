@@ -9,6 +9,7 @@ class BuildingBlockTest {
     public void testCreateBuildingBlock1() {
         BuildingBlock buildingBlock = new BuildingBlock();
         assertEquals(0, buildingBlock.getNumberOfApartments());
+        assertEquals(0, buildingBlock.getSize());
     }
 
 }
