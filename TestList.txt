@@ -1,0 +1,12 @@
+Test List
+1. A 14 sqm kitchen has a size of 14 sqm and is of type “kitchen”.
+2. A 9 sqm bathroom has a size of 9 sqm and is of type “bathroom”.
+3. A 20 sqm living room has a size of 20 sqm and is of type “room”.
+4. An apartment with no rooms has a size of 0 sqm and a room count of 0.
+5. An apartment with a 12 sqm kitchen, a 7 sqm bathroom, a 15 sqm bedroom, and a 25 sqm living
+room has a size of (12 + 7 + 15 + 25 =) 59 sqm and room count of 4.
+6. An apartment with a size of 70 sqm has a monthly rent of 4200 DKK.
+7. A new building complex at “Store Gade 19, 7400 Herning” with no apartments has a size of 0 sqm
+and address at “Store Gade 19, 7400 Herning”.
+8. A building complex at “Lille Gade 14, 7430 Ikast” with two 40 sqm apartments has a size of 80 sqm
+and address at “Lille Gade 14, 7430 Ikast”.
