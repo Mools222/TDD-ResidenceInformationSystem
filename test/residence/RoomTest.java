@@ -10,5 +10,6 @@ class RoomTest {
         Room room = new Room();
         room.setSize(14);
         assertEquals(14, room.getSize());
+        assertEquals(Type.KITCHEN, room.getType());
     }
 }
