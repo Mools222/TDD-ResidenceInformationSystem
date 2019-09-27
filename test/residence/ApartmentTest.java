@@ -25,5 +25,4 @@ class ApartmentTest {
         assertEquals(70, apartment.getSize());
         assertEquals(4200, apartment.getMonthlyRent());
     }
-
 }
