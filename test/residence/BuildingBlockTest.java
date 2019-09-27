@@ -18,5 +18,6 @@ class BuildingBlockTest {
         BuildingBlock buildingBlock = new BuildingBlock("Lille Gade 14, 7430 Ikast", new Apartment(new Room(40, Type.ROOM)), new Apartment(new Room(40, Type.ROOM)));
         assertEquals(2, buildingBlock.getNumberOfApartments());
         assertEquals(80, buildingBlock.getSize());
+        assertEquals("Lille Gade 14, 7430 Ikast", buildingBlock.getAddress());
     }
 }
