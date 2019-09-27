@@ -10,7 +10,7 @@ class BuildingBlockTest {
         BuildingBlock buildingBlock = new BuildingBlock("Store Gade 19, 7400 Herning");
         assertEquals(0, buildingBlock.getNumberOfApartments());
         assertEquals(0, buildingBlock.getSize());
-        assertEquals(0, buildingBlock.getAddress());
+        assertEquals("Store Gade 19, 7400 Herning", buildingBlock.getAddress());
     }
 
 }
