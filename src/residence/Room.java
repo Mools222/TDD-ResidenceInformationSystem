@@ -16,5 +16,4 @@ public class Room {
     public Type getType() {
         return type;
     }
-
 }

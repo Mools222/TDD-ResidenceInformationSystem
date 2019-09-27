@@ -12,14 +12,13 @@ public class Apartment {
 
     public int getSize() {
         int size = 0;
-        for (Room room: roomList) {
+        for (Room room : roomList) {
             size += room.getSize();
         }
         return size;
     }
 
     public int getRoomCount() {
-        return 0;
+        return roomList.size();
     }
-
 }
