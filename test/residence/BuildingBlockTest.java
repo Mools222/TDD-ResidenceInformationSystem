@@ -13,4 +13,9 @@ class BuildingBlockTest {
         assertEquals("Store Gade 19, 7400 Herning", buildingBlock.getAddress());
     }
 
+    @Test
+    public void testCreateBuildingBlock2() {
+        BuildingBlock buildingBlock = new BuildingBlock("Lille Gade 14, 7430 Ikast");
+        assertEquals(0, buildingBlock.getNumberOfApartments());
+    }
 }
