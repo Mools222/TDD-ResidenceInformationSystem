@@ -9,6 +9,7 @@ class ApartmentTest {
     public void testCreateApartment1() {
         Apartment apartment = new Apartment();
         assertEquals(0, apartment.getRoomCount());
+        assertEquals(0, apartment.getSize());
     }
 
 }
